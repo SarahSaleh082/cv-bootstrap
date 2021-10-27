@@ -1,0 +1,244 @@
+/*================= Start styling Blog=================*/
+/*=======main color: #009688; =======*/
+.blog{
+    background-color: #eee;
+    
+}
+.w-container{
+    padding: 15px;
+}
+
+
+/*================= End styling Blog=================*/
+
+
+
+
+/*=================== Start Styling Intro ======================*/
+/*box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);*/
+.left-content .content{
+    box-shadow: 3px  3px 5px rgba(0, 0, 0, 0.4),
+    -3px  -3px 5px rgba(0, 0, 0, 0.4);
+    /* box-shadow: 0 8px 6px -6px black; */
+}
+.left-content .content{
+    background-color: #fff;
+    
+}
+.left-content .content .cv-intro{
+    background-image: url(../img/cv1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 286px;
+    color: #fff;
+}
+.left-content .content .cv-intro h1{
+    padding: 140px 15px;
+}
+.left-content .content ul{
+    padding: 15px;
+}
+.left-content .content ul li{
+    padding: 8px 0;
+}
+.left-content .content ul .icon-info{
+    /* padding-right: 5px; */
+    display: inline-block;
+    color: #009688;
+}
+.left-content .content ul span{
+    padding-left: 15px;
+    color: #727272;
+}
+
+/*=================== End Styling Intro ======================*/
+
+/*===================== Start Styling Skills ====================*/
+.skills{
+    padding: 30px 15px;
+}
+.skills .headline .icon-skill{
+    display: inline-block;
+    color: #009688;
+}
+.skills .headline span{
+    padding-left: 15px;
+    font-size: 20px;
+    color: #727272;
+    font-weight: bold;
+}
+.skills .item{
+    margin: 15px 0;
+    color: #727272;
+}
+.skills .item .bar-wrapper{
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 100px;
+    
+}
+.skills .item .skill-bar{
+    text-align: center;
+    color: #fff;
+    padding: .5px 0;
+    margin: 5px 0;
+
+}
+.skills .item .bar-wrapper .adobe{
+    background-color: #009688;
+    width: 90%;
+    border-radius: 100px;
+}
+.skills .item .bar-wrapper .photo{
+    width: 80%;
+    background-color: #009688;
+    border-radius: 100px;
+}
+.skills .item .bar-wrapper .illus{
+    width: 75%;
+    background-color: #009688;
+    border-radius: 100px;
+}
+.skills .item .bar-wrapper .med{
+    width: 50%;
+    background-color: #009688;
+    /* text-align: center; */
+    border-radius: 100px;
+}
+/*===================== End Styling Skills ====================*/
+
+/*==================== Start Styling Languages ===============*/
+.language{
+    padding: 30px 15px;
+}
+.language .headline .icon-lang{
+    display: inline-block;
+    color: #009688;
+}
+.language .headline span{
+    padding-left: 15px;
+    font-size: 20px;
+    color: #727272;
+    font-weight: bold;
+
+
+}
+.language .item {
+    margin: 15px 0;
+    color: #727272;
+    
+}
+.language .item .lang-wrapper{
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 100px;
+    
+}
+.language .item .lang-bar{
+    padding: 10px 0;
+    
+}
+.language .item .lang-wrapper .eng{
+    width: 100%;
+    background-color: #009688;
+    border-radius: 100px;
+}
+.language .item .lang-wrapper .spa{
+    width: 50%;
+    background-color: #009688;
+    border-radius: 100px;
+
+}
+.language .item .lang-wrapper .ger{
+    width: 25%;
+    background-color: #009688;
+    border-radius: 100px;
+
+}
+/*==================== End Styling Languages ===============*/
+
+/*====================== Start Right Content ========================*/
+
+/*==================== Start Experience section =======================*/
+.right-content .content-card{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 3px  3px 5px rgba(0, 0, 0, 0.4),
+    -3px  -3px 5px rgba(0, 0, 0, 0.4)
+    
+}
+
+.right-content .content-card .headline{
+    margin-bottom: 10px;
+}
+.right-content .content-card .headline .icon{
+    color: #009688;
+    font-size: 40px;
+    display: inline-block;
+    margin-right: 18px;
+}
+.right-content .content-card .headline span{
+    font-size: 27px;
+    color: #727272;
+}
+
+.right-content .content-card .item{
+    padding: 20px 10px;
+}
+
+.right-content .content-card .item .job-title{
+    color: #727272;
+    font-weight: 900;
+    font-size: 18px;
+}
+.right-content .content-card .item .job-time{
+    color: #009688;
+}
+.right-content .content-card .item .job-time i{
+    padding-right: 10px;
+}
+.right-content .content-card .item .job-time span{
+    color: #fff;
+    background-color: #009688;
+    padding: 4px 8px;
+    border-radius: 3px;
+
+}
+@media (max-width: 992px){
+    .right-content .content-card{
+        margin: 20px 0;
+    }
+}
+/*==================== End Experience section =======================*/
+
+/*===================== Start Education Section =====================*/
+.right-content .h-margin{
+    margin: 15px 0;
+}
+
+
+/*===================== End Education Section =====================*/
+
+
+/*====================== End Right Content ========================*/
+
+/*=================== Start Styling Footer =====================*/
+footer{
+    height: 150px;
+    background-color: #009688;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer p{
+    margin: 0;
+}
+footer p span{
+    text-decoration: underline;
+}
+
+
+/*=================== End Styling Footer =====================*/
+
